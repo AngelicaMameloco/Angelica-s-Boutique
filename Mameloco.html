@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Basic Bootstrap Template</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        /* Custom CSS to beautify this example */
+        .box{
+            padding: 15px;        
+            border: 4px solid #666;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="m-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">Business</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <a href="#" class="nav-item nav-link">Profile</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Messages</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Inbox</a>
+                                <a href="#" class="dropdown-item">Sent</a>
+                                <a href="#" class="dropdown-item">Drafts</a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="d-flex">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <button type="button" class="btn btn-secondary"><i class="bi-search"></i></button>
+                        </div>
+                    </form>
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    
+    <div class="box text-center">
+        <img src="https://scontent.fcrk4-1.fna.fbcdn.net/v/t1.15752-9/332150470_1356695825187087_4934799220783711132_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeG0j7fMeoz0G4lGphYi2oY-AuTk0UApGXsC5OTRQCkZe8MN6pqCaTJe_d6Zs0YK4OCFOQn41--5S9o3ye8-20I1&_nc_ohc=1uaio60En-8AX8XOdvc&_nc_ht=scontent.fcrk4-1.fna&oh=03_AdRsZgN5Bfck-sl3dAc0wGl8kitp890NNINBO_C59xhLOA&oe=641D299C" alt="Sample Image">
+    </div>
+    
+    <h1>Hello!</h1>
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <div><h1 class="jumbotron text-center"><span class="badge bg-info">Angelica's Boutique<i class="bi-journal-text"></i></span></h1>
+        <p class="text-center text-info"><b>Thrifted Shorts!</b></p>
+     </div>
+      
+     <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card">
+                <img src="https://scontent.fcrk4-1.fna.fbcdn.net/v/t1.15752-9/332378690_516889493961627_5394783906707300513_n.jpg?stp=dst-jpg_p403x403&_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeGQvak1lNAeaZUjGjIIQi5SnohBsbZnwe-eiEGxtmfB7xNYbczXAceYRWFo7BYz1EYmtEqi_7YK7dxgP3xyNAC7&_nc_ohc=F7qr3Y1fk-UAX9zgUik&_nc_ht=scontent.fcrk4-1.fna&oh=03_AdRXgnSIkFE-YortuMpgNbHONqiVm3cG7fhc2wodJZoy1A&oe=641D26AE" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">AA Style</h5>
+                    <p class="card-text">Gray color, fitted and stretchy for 120 pesos only.</p>
+                </div>
+                <div class="card-footer">
+    
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://scontent.fcrk4-1.fna.fbcdn.net/v/t1.15752-9/331427193_1236860723593540_3324197530997428799_n.jpg?stp=dst-jpg_p403x403&_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeHqbV3k6lzYphwVjBu7TE-CklCI02-XCPeSUIjTb5cI91RHWPAz4u5Pz5xNyu4VECSEQGYqohCHv8ZpLVpGKqeX&_nc_ohc=9MORZ_aRAt0AX9i1MQi&_nc_ht=scontent.fcrk4-1.fna&oh=03_AdSypJU6DU4e057ieHvGKVNnyHZpTypkhA-vwDBWP8kw4Q&oe=641D3A49" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Clean Cut</h5>
+                    <p class="card-text">Folded clean cut, soft denim, fitted and stretchy for only 100 pesos.</p>
+                </div>
+                <div class="card-footer">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://scontent.fcrk4-1.fna.fbcdn.net/v/t1.15752-9/326771745_944243819923961_7650684446443574778_n.jpg?stp=dst-jpg_p403x403&_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeGqkYB5hU8Z3a2lP1kYyD8UnHn9ukoMeNqcef26Sgx42mMHy1JpkZwIxfbgarUK1sdt-D83NnsyMjHE-6E_oeSU&_nc_ohc=htVrzln0Ii8AX8verj1&_nc_ht=scontent.fcrk4-1.fna&oh=03_AdTJx9vfBZAGPWijBRjZTOOG9-usMDGn9LombS5HswXKOw&oe=641D503B" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Clean Cut</h5>
+                    <p class="card-text">Clean cut folded and garterize, brown and rare color 100 pesos only.</p>
+                </div>
+                <div class="card-footer">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://scontent.fcrk4-1.fna.fbcdn.net/v/t1.15752-9/332358506_1630418584055338_7440480455604483955_n.jpg?stp=dst-jpg_p403x403&_nc_cat=104&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeGEPasRmULXB6e21J81vU3gvAv8iL4LsYa8C_yIvguxhviO7UDB5lJNkhGbA3Zsno-QcZlnYZ5AvKoXsfyUi2Bg&_nc_ohc=xXXt7ZwumJcAX_Ijy4q&_nc_ht=scontent.fcrk4-1.fna&oh=03_AdSU-mmYyL5JTDZQxG87NXewN81eluWBwSf0D_YLz0JtIw&oe=641D28F6" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Rare Design</h5>
+                    <p class="card-text">Clean cut with dolphin shorts design 120 pesos only.</p>
+                </div>
+                <div class="card-footer">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card">
+                <img src="https://scontent.fcrk4-1.fna.fbcdn.net/v/t1.15752-9/332381174_1361310167968358_3947870795172177471_n.jpg?stp=dst-jpg_p403x403&_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeFxArNzQoyKjwjYU2Evdm2WrBy-oxI37KCsHL6jEjfsoPiktrofCBwXOo0i4g8cF_A2QgkVVpIujzWW2-HlVAk8&_nc_ohc=YDND4hkbBbgAX_5uzjr&_nc_ht=scontent.fcrk4-1.fna&oh=03_AdSjPHXTFheRb6cOmK23_FlHSqaXQXEZUTafVflydiTZ_A&oe=641D49E5" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Skirt</h5>
+                    <p class="card-text">Rare skirt and button down design 130 pesos only.</p>
+                </div>
+                <div class="card-footer">
+                   
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://scontent.fcrk4-1.fna.fbcdn.net/v/t1.15752-9/332308578_892164768737322_6438469447233795485_n.jpg?stp=dst-jpg_p403x403&_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeEnuCe60c3DXPDABMr7RztsIoJJB8IL3zcigkkHwgvfN4THxyzd1nYnaHfEnKeFr7h1WsQByzQhO54dLi7wFW0q&_nc_ohc=fnwDsJ5g10kAX9tvRnF&_nc_ht=scontent.fcrk4-1.fna&oh=03_AdTp0ZQkIPGdKT-F0kRWF2xh2SodicmfPdtYWIUVd3Bq2A&oe=641D1B8F" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Clean Cut</h5>
+                    <p class="card-text">Button down and flower design 100 pesos only.</p>
+                </div>
+                <div class="card-footer">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/332471254_896524981664480_6901831388430942468_n.jpg?stp=dst-jpg_p403x403&_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeE5XcmiAFcTUS8_UqUOBCZLLMW22bPpHiMsxbbZs-keI6ct5e4F6EYdJLtQIShqMnc4znSr1YxG6F6r3xX2EsMQ&_nc_ohc=C0E_9mDCvB0AX9sUgcD&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQMlJaF7auXUNMQll-LalAyt4_ic2EPXK-r-VnUCGwwSQ&oe=641D4073" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">American Apparel</h5>
+                    <p class="card-text">Dark color and cleancut design 120 pesos only.</p>
+                </div>
+                <div class="card-footer">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/332685025_506498241648522_4024523054401647595_n.jpg?stp=dst-jpg_p403x403&_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeGfT3gSZtoxLLRh9SiQibQNagT0lx5dJ0lqBPSXHl0nSbyxrCbMuM8y14MbgEf70e5Hvc-feK6NDDOGEhDzi_yA&_nc_ohc=Qhfl2JqtSrQAX-2h48y&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSodSXveWDb8ZJ7RaptxzgBFDslTUk-JEqG3_uvk7OyXg&oe=641D43FB" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Side Ruched</h5>
+                    <p class="card-text">Good as new and rare design 150 pesos only.</p>
+                </div>
+                <div class="card-footer">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
